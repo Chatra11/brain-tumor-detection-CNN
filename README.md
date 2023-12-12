@@ -12,17 +12,16 @@ The brain tumor detection application utilizes image processing and machine lear
 - **Tumor Detection**: Utilizing machine learning or image processing algorithms, the application identifies and highlights potential tumor regions within the images.
 - **Result Display**: Detected tumors or regions of interest are displayed back to the user, along with relevant information or statistics.
 
-## Installation
+## Dataset
 
-To run the brain tumor detection application locally, follow these steps:
+The dataset used in this project can be found on Kaggle: [Brain Tumor Classification MRI](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri).
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Ensure you have Python installed on your system (preferably Python 3.x).
+This dataset contains MRI images categorized into four classes:
+- Glioma Tumor
+- Meningioma Tumor
+- Normal (no tumor)
+- Pituitary Tumor
 
-## Usage
+The availability of this dataset allows users to train, validate, or test different machine learning models for brain tumor classification.
 
-To start the application, navigate to the repository directory and run the main Python file:
 
-```bash
-python main.py
